@@ -18,6 +18,10 @@ public class APIClient {
         return getRetrofitInstance().build().create(GitHubUserEndPoints.class);
     }
 
+    public static GitHubRepoEndPoint getServiceRepo() {
+        return getRetrofitInstance().build().create(GitHubRepoEndPoint.class);
+    }
+
 
 
 

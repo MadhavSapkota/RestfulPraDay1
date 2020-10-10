@@ -33,6 +33,9 @@ dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation 'androidx.appcompat:appcompat:1.2.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.0.1'
+
+//    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    implementation 'com.android.support:support-annotations:28.0.0'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
@@ -46,6 +49,13 @@ dependencies {
     //gson converter
     implementation 'com.squareup.retrofit2:converter-gson:2.1.0'
 //    implementation 'com.android.support:recyclerview-v7:24.2.0'
+
+
+    // recycler view
+    implementation 'com.android.support:recyclerview-v7:29.2.0'
+
+    implementation 'com.android.support:design:29.0.0'
+
 
 
 }
